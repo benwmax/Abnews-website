@@ -3,243 +3,357 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AlphaBro News — The World's Most Important News</title>
+  <title>AlphaBro News — The Hard-Hitting Journalism Nobody Asked For</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- TOP BANNER -->
-  <div class="top-banner">
-    🌍 WORLD HEADQUARTERS: EVERYWHERE &nbsp;|&nbsp; 🍹 OFFICIAL DRINK: MAMBO TAXI &nbsp;|&nbsp; ✈️ MILEAGE STATUS: PLATINUM FOR LIFE
+  <!-- UTILITY BAR -->
+  <div class="utility-bar">
+    <span>Friday, June 6, 2025 &nbsp;|&nbsp; 🌍 Reporting from somewhere with bad WiFi</span>
+    <div class="util-right">
+      <a href="about.html">About</a>
+      <a href="#">Subscribe</a>
+      <a href="#">Sign In</a>
+    </div>
   </div>
 
-  <!-- HEADER -->
-  <header class="site-header">
-    <div class="header-inner">
-      <div class="logo-block">
-        <span class="logo-globe">🌐</span>
-        <div>
-          <h1 class="site-title">AlphaBro News</h1>
-          <p class="site-tagline">The Hard-Hitting Journalism Nobody Asked For™</p>
-        </div>
-      </div>
-      <nav class="main-nav">
-        <a href="index.html" class="active">Home</a>
-        <a href="about.html">The Anchors</a>
-        <a href="article.html">Featured Report</a>
-      </nav>
-    </div>
-  </header>
-
-  <!-- BREAKING NEWS TICKER -->
+  <!-- BREAKING TICKER -->
   <div class="ticker-wrap">
-    <span class="ticker-label">🚨 BREAKING</span>
-    <div class="ticker-content">
-      <span>Paul Largent still missing in Clit, Turkey — last spotted at the welcome sign &nbsp;•&nbsp; Seema's croissant investigation raises more questions than answers &nbsp;•&nbsp; AlphaBro News rated "#1 news source" by AlphaBro News &nbsp;•&nbsp; Paul attempts world record for Mambo Taxis consumed in a single layover &nbsp;•&nbsp; Fucking, Austria changes name — Paul Largent describes it as "a personal attack" &nbsp;•&nbsp; Seema wins award for journalism she denies writing &nbsp;•&nbsp;</span>
+    <span class="ticker-label">🚨 Breaking</span>
+    <div class="ticker-track">
+      <span>Paul Largent still missing in Clit, Turkey — last spotted at welcome sign &nbsp;•&nbsp; Seema's croissant investigation raises more questions than answers &nbsp;•&nbsp; AlphaBro News rated "#1 news source" by AlphaBro News &nbsp;•&nbsp; Paul attempts world record for Mambo Taxis consumed in single layover &nbsp;•&nbsp; Fucking, Austria changes name — Largent describes it as "a personal attack" &nbsp;•&nbsp; Seema wins journalism award she doesn't remember entering &nbsp;•&nbsp;</span>
     </div>
   </div>
 
-  <!-- HERO ARTICLE -->
-  <section class="hero">
-    <div class="hero-inner">
-      <div class="hero-content">
-        <span class="badge badge-exclusive">EXCLUSIVE</span>
-        <h2 class="hero-headline">Paul Largent Travels 6,200 Miles To Find Clit, Turkey — And Sends Back 47 Photos Of The Welcome Sign</h2>
-        <p class="hero-byline">By Paul "Mambo Taxi" Largent &nbsp;|&nbsp; Filed from Eastern Turkey &nbsp;|&nbsp; 🇹🇷</p>
-        <p class="hero-excerpt">After three connecting flights, one missed bus, and a questionable meat pastry from a roadside stand, AlphaBro News anchor Paul Largent has confirmed: Clit is real, it's in Turkey, and the locals are very tired of talking to journalists.</p>
-        <a href="article.html" class="btn-read">Read Full Report →</a>
+  <!-- MASTHEAD -->
+  <div class="page-wrap">
+    <div class="masthead">
+      <div class="masthead-side">
+        <div>Friday, June 6, 2025</div>
+        <div class="weather-widget">📍 Paul's location: Unknown &nbsp;🌡️ Vibes: Chaotic</div>
       </div>
-      <div class="hero-image">
-        <div class="fake-photo">
-          <span class="fake-photo-emoji">🪧</span>
-          <p>Paul at the sign.<br/><em>"This is the moment I've been training for."</em></p>
-        </div>
+      <div class="masthead-center">
+        <div class="site-name">Alpha<span>Bro</span> News</div>
+        <div class="site-tagline">The Hard-Hitting Journalism Nobody Asked For™</div>
+      </div>
+      <div class="masthead-side right">
+        <div>Est. Last Tuesday</div>
+        <div style="margin-top:4px;font-size:0.7rem;">🌐 47 countries covered &nbsp;|&nbsp; 0 editors</div>
       </div>
     </div>
-  </section>
+  </div>
 
-  <!-- MAIN CONTENT -->
-  <main class="main-content">
-    <div class="content-grid">
+  <!-- SECTION NAV -->
+  <nav class="section-nav">
+    <div class="section-nav-inner">
+      <a href="index.html" class="active">Home</a>
+      <a href="#">World</a>
+      <a href="#">Investigations</a>
+      <a href="#">Travel</a>
+      <a href="#">Food &amp; Drink</a>
+      <a href="#">Science(?)</a>
+      <a href="about.html">The Anchors</a>
+      <a href="#" class="nav-opinion">Opinion</a>
+    </div>
+  </nav>
 
-      <!-- ARTICLE CARDS -->
-      <section class="articles-section">
-        <h3 class="section-title">🔥 Latest Dispatches</h3>
+  <!-- MAIN PAGE -->
+  <div class="page-wrap">
 
-        <div class="article-grid">
+    <!-- HERO -->
+    <div class="hero-section">
 
-          <article class="card">
-            <div class="card-img">🍺</div>
-            <div class="card-body">
-              <span class="badge badge-paul">PAUL REPORT</span>
-              <h4>Paul's Mambo Taxi World Tour: Rating Airport Bars From Tokyo To Nairobi</h4>
-              <p class="card-meta">🇯🇵 Tokyo → 🇰🇪 Nairobi → 🇦🇹 Vienna → ??? &nbsp;|&nbsp; 14 airports, 38 drinks</p>
-              <p>After testing 38 airport cocktails across four continents, Paul has produced a definitive 47-page ranked list. Spoiler: Terminal 2 in Nairobi beat Tokyo Narita by "a very thin margin and incredible peanuts."</p>
-              <a href="#" class="card-link">Keep Reading →</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card-img">🐟</div>
-            <div class="card-body">
-              <span class="badge badge-seema">SEEMA REPORTS</span>
-              <h4>Seema Investigates: Is Dildo, Newfoundland Worth The 12-Hour Drive? (Yes. Obviously.)</h4>
-              <p class="card-meta">🇨🇦 Dildo, Newfoundland &nbsp;|&nbsp; Pop. 1,200 Very Good Sports</p>
-              <p>Senior anchor Seema Krishnamurthy spent three days in Dildo, Newfoundland. She visited the Dildo Interpretation Centre, ate fish and chips at the Dildo Diner, and reports that the residents are "genuinely wonderful people who have heard every single joke."</p>
-              <a href="#" class="card-link">Keep Reading →</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card-img">🥐</div>
-            <div class="card-body">
-              <span class="badge badge-seema">SEEMA REPORTS</span>
-              <h4>Seema Asks: Are French People Actually Rude, Or Is It Just That Seema Doesn't Speak French?</h4>
-              <p class="card-meta">🇫🇷 Paris, France &nbsp;|&nbsp; A Very Important Cultural Investigation</p>
-              <p>A groundbreaking six-day study in which Seema Krishnamurthy ordered croissants in increasingly confident English. Conclusion: "Once I pointed at things, everyone was extremely nice." A triumph of international diplomacy.</p>
-              <a href="#" class="card-link">Keep Reading →</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card-img">🌶️</div>
-            <div class="card-body">
-              <span class="badge badge-paul">PAUL REPORT</span>
-              <h4>Paul Attempts To Eat Every Street Food In Bangkok In One Day. Hospitalized On Day Two.</h4>
-              <p class="card-meta">🇹🇭 Bangkok, Thailand &nbsp;|&nbsp; A Medical & Culinary Report</p>
-              <p>Paul Largent set out to eat his way across Bangkok's legendary street food scene in a single 24-hour stretch. He made it to 11 PM and approximately 40 dishes before his body staged what he describes as "a firm but fair protest." Full review forthcoming upon release from hospital.</p>
-              <a href="#" class="card-link">Keep Reading →</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card-img">🐄</div>
-            <div class="card-body">
-              <span class="badge badge-paul">PAUL REPORT</span>
-              <h4>EXCLUSIVE: Paul Visits Intercourse, Pennsylvania And Finds It Mostly Amish</h4>
-              <p class="card-meta">🇺🇸 Intercourse, PA &nbsp;|&nbsp; Population: 1,334 &nbsp;|&nbsp; Vibes: Quiet</p>
-              <p>In what Paul called "a necessary journalistic pilgrimage," he drove four hours to Intercourse, Pennsylvania. He found a quilt shop, a pretzel bakery, and several friendly Amish families who had no idea why a man was photographing the town sign with such enthusiasm.</p>
-              <a href="#" class="card-link">Keep Reading →</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card-img">🏔️</div>
-            <div class="card-body">
-              <span class="badge badge-seema">SEEMA REPORTS</span>
-              <h4>Seema Investigates Whether The Pyramids Are Just Big Triangles. A Deep Dive.</h4>
-              <p class="card-meta">🇪🇬 Giza, Egypt &nbsp;|&nbsp; Age of Pyramids: Old &nbsp;|&nbsp; Seema's Take: Complicated</p>
-              <p>AlphaBro News sends Seema to Egypt to answer the question no serious journalist has dared ask: structurally speaking, is a pyramid just a triangle that kept going? After consulting zero Egyptologists and one local camel guide named Mohammed, Seema's verdict is: "Technically, yes. But also no. It's complicated."</p>
-              <a href="#" class="card-link">Keep Reading →</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card-img">😤</div>
-            <div class="card-body">
-              <span class="badge badge-paul">OPINION</span>
-              <h4>OPINION: Fucking, Austria Changed Its Name To Fugging And I Am Taking It Personally — By Paul Largent</h4>
-              <p class="card-meta">🇦🇹 Fugging (formerly Fucking), Austria &nbsp;|&nbsp; OPINION PIECE</p>
-              <p>"I had a whole trip planned. Flights booked. Matching t-shirt ordered. And then in 2021, they go and change the name 'for the residents' mental health.' What about MY mental health, Austria? What about that?" — Paul Largent, 800 words, very emotional.</p>
-              <a href="#" class="card-link">Keep Reading →</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card-img">🍜</div>
-            <div class="card-body">
-              <span class="badge badge-seema">SEEMA REPORTS</span>
-              <h4>Seema's Tokyo Ramen Bracket: 32 Bowls, One Winner, Zero Regrets</h4>
-              <p class="card-meta">🇯🇵 Tokyo, Japan &nbsp;|&nbsp; 4-Day Tournament &nbsp;|&nbsp; Broth consumed: Immeasurable</p>
-              <p>In the most rigorous single-city food investigation in AlphaBro News history, Seema Krishnamurthy ate 32 bowls of ramen across Tokyo over four days and constructed a fully seeded bracket. The winner — a tiny counter shop in Shinjuku — "made me consider never leaving Japan," she reports. She left Japan.</p>
-              <a href="#" class="card-link">Keep Reading →</a>
-            </div>
-          </article>
-
+      <!-- BIG STORY -->
+      <div class="hero-main">
+        <span class="label label-red">Exclusive Investigation</span>
+        <div class="hero-photo">
+          <div class="hero-photo-bg"></div>
+          <div class="hero-photo-emoji">🪧</div>
+          <div class="hero-photo-caption">Paul Largent at the Clit village sign, Iğdır Province, Turkey. Photo: P. Largent (selfie stick)</div>
         </div>
-      </section>
+        <h1 class="hero-headline"><a href="article.html">Paul Largent Travels 6,200 Miles To Find Clit, Turkey — And Sends Back 47 Photos Of The Welcome Sign</a></h1>
+        <p class="hero-deck">After three connecting flights, one missed bus, and a questionable meat pastry from a roadside stand, AlphaBro News anchor Paul Largent has confirmed: Clit is real, it's in Turkey, and the locals are very tired of journalists.</p>
+        <div class="hero-byline"><span class="author">By Paul "Mambo Taxi" Largent</span> &nbsp;|&nbsp; Filed from Iğdır Province, Turkey 🇹🇷 &nbsp;|&nbsp; 3 hours ago</div>
+      </div>
+
+      <!-- SIDEBAR STORIES -->
+      <div class="hero-sidebar">
+
+        <div class="hero-side-story">
+          <span class="label label-teal">Seema Reports</span>
+          <div class="side-headline"><a href="#">Seema Spends Three Days In Dildo, Newfoundland And Files A 4,000-Word Report</a></div>
+          <div class="side-deck">The residents of Dildo, Newfoundland are "genuinely wonderful people who have heard every single joke," Krishnamurthy reports.</div>
+          <div class="meta"><span class="author">Seema Krishnamurthy</span> &nbsp;|&nbsp; 🇨🇦 &nbsp;|&nbsp; 1 day ago</div>
+        </div>
+
+        <div class="hero-side-story">
+          <span class="label label-navy">Opinion</span>
+          <div class="side-headline"><a href="#">Fucking, Austria Changed Its Name To Fugging And I Am Taking It Personally</a></div>
+          <div class="side-deck">Paul Largent had flights booked. Matching t-shirts ordered. He is not okay.</div>
+          <div class="meta"><span class="author">Paul Largent, Opinion</span> &nbsp;|&nbsp; 🇦🇹 &nbsp;|&nbsp; 2 days ago</div>
+        </div>
+
+        <div class="hero-side-story">
+          <span class="label label-teal">Food & Drink</span>
+          <div class="side-headline"><a href="#">Seema's Tokyo Ramen Bracket: 32 Bowls, One Winner, No Regrets</a></div>
+          <div class="side-deck">Four days, 32 bowls, one fully seeded tournament bracket. The winner, a counter shop in Shinjuku, "made me consider never leaving Japan."</div>
+          <div class="meta"><span class="author">Seema Krishnamurthy</span> &nbsp;|&nbsp; 🇯🇵 &nbsp;|&nbsp; 4 days ago</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- SECONDARY STORY ROW -->
+    <div class="story-row">
+
+      <div class="story-col">
+        <span class="label label-red">Investigation</span>
+        <div class="story-thumb">🐄</div>
+        <div class="story-headline"><a href="#">Intercourse, PA: Paul Drives Four Hours And Finds Mostly Amish People</a></div>
+        <div class="story-deck">In what Largent called "a necessary journalistic pilgrimage," he found a quilt shop, a pretzel bakery, and several Amish families who had no idea why a man was photographing the town sign with such enthusiasm.</div>
+        <div class="meta"><span class="author">Paul Largent</span> &nbsp;|&nbsp; 🇺🇸 &nbsp;|&nbsp; 5 days ago</div>
+      </div>
+
+      <div class="story-col">
+        <span class="label label-teal">Science(?)</span>
+        <div class="story-thumb">🏔️</div>
+        <div class="story-headline"><a href="#">Seema Investigates Whether The Pyramids Are Just Big Triangles</a></div>
+        <div class="story-deck">After consulting zero Egyptologists and one local camel guide named Mohammed, Seema's verdict is: "Technically yes. But also no. It's complicated."</div>
+        <div class="meta"><span class="author">Seema Krishnamurthy</span> &nbsp;|&nbsp; 🇪🇬 &nbsp;|&nbsp; 6 days ago</div>
+      </div>
+
+      <div class="story-col">
+        <span class="label label-red">Food & Drink</span>
+        <div class="story-thumb">🌶️</div>
+        <div class="story-headline"><a href="#">Paul Attempts To Eat All Of Bangkok In One Day. Hospitalized On Day Two.</a></div>
+        <div class="story-deck">Paul Largent made it to 11 PM and approximately 40 dishes before his body staged what he describes as "a firm but fair protest." Full review forthcoming upon hospital release.</div>
+        <div class="meta"><span class="author">Paul Largent</span> &nbsp;|&nbsp; 🇹🇭 &nbsp;|&nbsp; 1 week ago</div>
+      </div>
+
+      <div class="story-col">
+        <span class="label label-teal">Culture</span>
+        <div class="story-thumb">🥐</div>
+        <div class="story-headline"><a href="#">Are French People Actually Rude, Or Is It Just That Seema Doesn't Speak French?</a></div>
+        <div class="story-deck">A six-day cultural study in which Krishnamurthy ordered croissants in increasingly confident English. Conclusion: "Once I pointed at things, everyone was extremely nice."</div>
+        <div class="meta"><span class="author">Seema Krishnamurthy</span> &nbsp;|&nbsp; 🇫🇷 &nbsp;|&nbsp; 1 week ago</div>
+      </div>
+
+    </div>
+
+    <!-- CONTENT AREA + SIDEBAR -->
+    <div class="content-area">
+
+      <!-- MAIN COLUMN -->
+      <div class="main-column">
+
+        <!-- WORLD INVESTIGATIONS -->
+        <div class="section-block">
+          <div class="section-header">
+            <span class="section-title">🌍 World Investigations</span>
+            <a class="see-all" href="#">See All →</a>
+          </div>
+
+          <div class="h-story">
+            <div class="h-thumb">🍺</div>
+            <div class="h-text">
+              <span class="label label-red">Travel</span>
+              <div class="h-headline"><a href="#">Paul's Mambo Taxi World Tour: Rating 38 Airport Bars Across Four Continents</a></div>
+              <div class="h-deck">After testing 38 airport cocktails, Paul has produced a definitive 47-page ranked list. Terminal 2 in Nairobi beat Tokyo Narita by "a very thin margin and incredible peanuts."</div>
+              <div class="meta"><span class="author">Paul Largent</span> &nbsp;|&nbsp; 🌍 14 airports &nbsp;|&nbsp; 2 days ago</div>
+            </div>
+          </div>
+
+          <div class="h-story">
+            <div class="h-thumb">🌋</div>
+            <div class="h-text">
+              <span class="label label-teal">Investigation</span>
+              <div class="h-headline"><a href="#">Seema Investigates: Is Whakapapa, New Zealand As Funny In Person As It Is On A Map?</a></div>
+              <div class="h-deck">Spoiler: it is a ski resort. The name means "to place in layers" in Māori. Seema went anyway and skied badly for three days in the name of journalism.</div>
+              <div class="meta"><span class="author">Seema Krishnamurthy</span> &nbsp;|&nbsp; 🇳🇿 &nbsp;|&nbsp; 3 days ago</div>
+            </div>
+          </div>
+
+          <div class="h-story">
+            <div class="h-thumb">🍜</div>
+            <div class="h-text">
+              <span class="label label-teal">Food & Drink</span>
+              <div class="h-headline"><a href="#">Paul Reviews Every Soup He Ate In Vietnam Over 11 Days And Nobody Asked Him To</a></div>
+              <div class="h-deck">The man ate 23 bowls of pho in Hanoi alone. He has opinions. He has scores. He has a spreadsheet. AlphaBro News has published all of it.</div>
+              <div class="meta"><span class="author">Paul Largent</span> &nbsp;|&nbsp; 🇻🇳 &nbsp;|&nbsp; 5 days ago</div>
+            </div>
+          </div>
+
+          <div class="h-story">
+            <div class="h-thumb">🏟️</div>
+            <div class="h-text">
+              <span class="label label-red">Sports(?)</span>
+              <div class="h-headline"><a href="#">Seema Attends A Cricket Match In Mumbai, Understands Nothing, Files 2,800 Words</a></div>
+              <div class="h-deck">Krishnamurthy's sweeping account of a five-day test match she watched from the stands contains zero cricket analysis and 800 words about the samosas she ate. It is our most-read sports piece ever.</div>
+              <div class="meta"><span class="author">Seema Krishnamurthy</span> &nbsp;|&nbsp; 🇮🇳 &nbsp;|&nbsp; 1 week ago</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- OPINION -->
+        <div class="section-block">
+          <div class="section-header gold">
+            <span class="section-title">✍️ Opinion</span>
+            <a class="see-all" href="#">See All →</a>
+          </div>
+
+          <div class="opinion-strip">
+            <div class="opinion-card">
+              <div class="opinion-avatar">🕵️‍♂️</div>
+              <div>
+                <span class="label label-opinion">Paul Largent</span>
+                <h4><a href="#">Every City Should Have An Airport Bar On Airside. This Is Not Negotiable.</a></h4>
+                <div class="opinion-author">By <strong>Paul "Mambo Taxi" Largent</strong> &nbsp;|&nbsp; 2 days ago</div>
+              </div>
+            </div>
+            <div class="opinion-card">
+              <div class="opinion-avatar">📰</div>
+              <div>
+                <span class="label label-opinion">Seema Krishnamurthy</span>
+                <h4><a href="#">I Have A Master's Degree In Journalism And I Just Spent A Week In A Town Called Dildo. I Am Fine.</a></h4>
+                <div class="opinion-author">By <strong>Seema Krishnamurthy</strong> &nbsp;|&nbsp; 4 days ago</div>
+              </div>
+            </div>
+            <div class="opinion-card">
+              <div class="opinion-avatar">🕵️‍♂️</div>
+              <div>
+                <span class="label label-opinion">Paul Largent</span>
+                <h4><a href="#">The Mambo Taxi Is Underrated And I Will Die On This Hill (Specifically The Hill Near Clit, Turkey)</a></h4>
+                <div class="opinion-author">By <strong>Paul "Mambo Taxi" Largent</strong> &nbsp;|&nbsp; 6 days ago</div>
+              </div>
+            </div>
+            <div class="opinion-card">
+              <div class="opinion-avatar">📰</div>
+              <div>
+                <span class="label label-opinion">Seema Krishnamurthy</span>
+                <h4><a href="#">Paul Expensed A Camel Ride In Egypt "For Research." I Reviewed The Receipt. It Was Two Camels.</a></h4>
+                <div class="opinion-author">By <strong>Seema Krishnamurthy</strong> &nbsp;|&nbsp; 1 week ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
 
       <!-- SIDEBAR -->
-      <aside class="sidebar">
-        <div class="sidebar-widget">
-          <h4 class="widget-title">🌍 Locations Investigated</h4>
-          <ul class="location-list">
-            <li>🇹🇷 Clit, Turkey</li>
-            <li>🇨🇦 Dildo, Newfoundland</li>
-            <li>🇺🇸 Intercourse, PA</li>
-            <li>🇦🇹 Fucking → Fugging, Austria</li>
-            <li>🇹🇭 Bangkok, Thailand</li>
-            <li>🇯🇵 Tokyo, Japan</li>
-            <li>🇫🇷 Paris, France</li>
-            <li>🇪🇬 Giza, Egypt</li>
-            <li>🇳🇿 Whakapapa, NZ <span class="new-badge">NEW</span></li>
-            <li>🇧🇷 Brumadinho, Brazil</li>
-          </ul>
+      <div class="sidebar-column">
+
+        <div class="sw">
+          <div class="sw-title">🔥 Most Read</div>
+          <ol class="most-read-list">
+            <li>
+              <span class="mr-num">1</span>
+              <div class="mr-headline"><a href="article.html">Paul Travels 6,200 Miles To Find Clit, Turkey — And Sends Back 47 Photos Of The Sign</a></div>
+            </li>
+            <li>
+              <span class="mr-num">2</span>
+              <div class="mr-headline"><a href="#">Seema Spends Three Days In Dildo, Newfoundland And Files 4,000 Words</a></div>
+            </li>
+            <li>
+              <span class="mr-num">3</span>
+              <div class="mr-headline"><a href="#">Fucking, Austria Changed Its Name And Paul Is Not Okay</a></div>
+            </li>
+            <li>
+              <span class="mr-num">4</span>
+              <div class="mr-headline"><a href="#">Paul Eats All Of Bangkok In One Day. Hospitalized.</a></div>
+            </li>
+            <li>
+              <span class="mr-num">5</span>
+              <div class="mr-headline"><a href="#">Seema: Are The Pyramids Just Big Triangles? A Deep Dive.</a></div>
+            </li>
+          </ol>
         </div>
 
-        <div class="sidebar-widget">
-          <h4 class="widget-title">🍹 Paul's Mambo Taxi Rating</h4>
-          <p class="widget-sub">His personal metric for all journalism</p>
-          <div class="taxi-meter">
-            <div class="taxi-bar" style="width:92%">Nairobi Airport 🇰🇪 — 9.2/10</div>
-            <div class="taxi-bar" style="width:88%">Clit, Turkey bar 🇹🇷 — 8.8/10</div>
-            <div class="taxi-bar" style="width:81%">Bangkok rooftop 🇹🇭 — 8.1/10</div>
-            <div class="taxi-bar" style="width:67%">Intercourse, PA 🇺🇸 — 6.7/10</div>
-            <div class="taxi-bar" style="width:43%">Fugging, Austria 🇦🇹 — 4.3/10</div>
-          </div>
-          <p class="widget-note">* Lower score = more disappointed Paul</p>
-        </div>
-
-        <div class="sidebar-widget anchor-spotlight">
-          <h4 class="widget-title">🎤 Anchor Spotlight</h4>
-          <div class="anchor-card">
-            <div class="anchor-emoji">🕵️</div>
+        <div class="sw">
+          <div class="sw-title">🎙️ The Anchors</div>
+          <div class="anchor-mini">
+            <div class="anchor-mini-emoji">🕵️‍♂️</div>
             <div>
-              <strong>Paul "Mambo Taxi" Largent</strong>
-              <p>Currently: Somewhere in Eastern Europe. Phone off. Do not disturb.</p>
+              <div class="anchor-mini-name">Paul "Mambo Taxi" Largent</div>
+              <div class="anchor-mini-role">Lead Anchor &amp; Investigative Correspondent</div>
+              <div class="meta" style="margin-top:3px;">📍 Last seen: Tbilisi, Georgia (the country)</div>
             </div>
           </div>
-          <div class="anchor-card">
-            <div class="anchor-emoji">📰</div>
+          <div class="anchor-mini">
+            <div class="anchor-mini-emoji">📰</div>
             <div>
-              <strong>Seema Krishnamurthy</strong>
-              <p>Currently: Filing 3,000 words about a croissant. Will not elaborate.</p>
+              <div class="anchor-mini-name">Seema Krishnamurthy</div>
+              <div class="anchor-mini-role">Senior Anchor &amp; Only Adult In The Room</div>
+              <div class="meta" style="margin-top:3px;">📍 Currently: Editing Paul's hospital piece</div>
             </div>
           </div>
-          <a href="about.html" class="btn-secondary">Meet The Team →</a>
+          <a href="about.html" style="display:block;margin-top:12px;font-family:Arial,sans-serif;font-size:0.78rem;font-weight:700;color:var(--red);letter-spacing:0.06em;text-transform:uppercase;">Full Bios →</a>
         </div>
 
-        <div class="sidebar-widget newsletter">
-          <h4 class="widget-title">📬 Get The Dispatch</h4>
-          <p>Semi-weekly emails from wherever Paul currently is.</p>
-          <input type="email" placeholder="your@email.com" class="email-input" />
-          <button class="btn-subscribe">Subscribe (It's Free)</button>
-          <p class="widget-note">* We will not sell your data. Paul might email you directly. We can't control Paul.</p>
+        <div class="sw">
+          <div class="sw-title">🍹 Mambo Taxi Meter</div>
+          <div style="font-family:Arial,sans-serif;font-size:0.72rem;color:var(--text-light);margin-bottom:10px;font-style:italic;">Paul's personal rating system, applied to everything</div>
+          <div class="mambo-meter">
+            <div class="mm-row">
+              <span class="mm-label">Nairobi Airport 🇰🇪</span>
+              <div class="mm-bar-wrap"><div class="mm-bar" style="width:92%"></div></div>
+              <span class="mm-score">9.2</span>
+            </div>
+            <div class="mm-row">
+              <span class="mm-label">Clit, Turkey 🇹🇷</span>
+              <div class="mm-bar-wrap"><div class="mm-bar" style="width:88%"></div></div>
+              <span class="mm-score">8.8</span>
+            </div>
+            <div class="mm-row">
+              <span class="mm-label">Bangkok Rooftop 🇹🇭</span>
+              <div class="mm-bar-wrap"><div class="mm-bar" style="width:81%"></div></div>
+              <span class="mm-score">8.1</span>
+            </div>
+            <div class="mm-row">
+              <span class="mm-label">Intercourse, PA 🇺🇸</span>
+              <div class="mm-bar-wrap"><div class="mm-bar" style="width:67%"></div></div>
+              <span class="mm-score">6.7</span>
+            </div>
+            <div class="mm-row">
+              <span class="mm-label">Fugging, Austria 🇦🇹</span>
+              <div class="mm-bar-wrap"><div class="mm-bar" style="width:43%"></div></div>
+              <span class="mm-score">4.3</span>
+            </div>
+          </div>
         </div>
-      </aside>
+
+        <div class="sw sw-newsletter">
+          <div class="sw-title gold">📬 The Dispatch</div>
+          <p style="font-family:Arial,sans-serif;font-size:0.8rem;color:var(--text-mid);margin-bottom:10px;">Semi-weekly updates from wherever Paul currently is.</p>
+          <input type="email" placeholder="your@email.com" />
+          <button>Subscribe — It's Free</button>
+          <div class="sw-note">We will not sell your data. We cannot control what Paul emails you directly.</div>
+        </div>
+
+      </div>
 
     </div>
-  </main>
+  </div>
 
   <!-- FOOTER -->
   <footer class="site-footer">
     <div class="footer-inner">
-      <div class="footer-brand">
-        <span class="logo-globe">🌐</span>
-        <div>
-          <strong>AlphaBro News</strong>
-          <p>The Hard-Hitting Journalism Nobody Asked For™</p>
-        </div>
-      </div>
-      <div class="footer-links">
+      <div class="footer-masthead">Alpha<span>Bro</span> News</div>
+      <div class="footer-tagline">The Hard-Hitting Journalism Nobody Asked For™ &nbsp;|&nbsp; Est. Last Tuesday &nbsp;|&nbsp; 47 Countries, 0 Editors</div>
+      <div class="footer-nav">
         <a href="index.html">Home</a>
+        <a href="#">World</a>
+        <a href="#">Investigations</a>
+        <a href="#">Travel</a>
+        <a href="#">Food &amp; Drink</a>
+        <a href="#">Opinion</a>
         <a href="about.html">The Anchors</a>
         <a href="article.html">Featured Report</a>
         <a href="#">Contact Paul (Good Luck)</a>
       </div>
-      <p class="footer-disclaimer">© 2025 AlphaBro News. All stories are fictional. Any resemblance to actual journalism is purely accidental. Paul Largent is a real drink. Clit, Turkey is a real place. Everything else is debatable.</p>
+      <div class="footer-disclaimer">© 2025 AlphaBro News. All stories are fictional satire. Any resemblance to actual journalism is purely accidental. Paul Largent is named after a real cocktail. Clit, Turkey is a real village. Dildo, Newfoundland is a real town. Intercourse, Pennsylvania is a real place. Fugging, Austria was real until 2021 when they changed it and ruined everything. Everything else is debatable. AlphaBro News does not recommend eating 40 dishes in Bangkok in a single day. We do recommend the Mambo Taxi.</div>
     </div>
   </footer>
 
